@@ -1,5 +1,7 @@
 # Dog_vision_model
-Computer vision model to detect dog breeds based on an image. This model was created by using TensorFlow, Scikit-learn, Pandas, NumPy, and Matplotlib
+Computer vision model to detect dog breeds based on an image. This model was created by using TensorFlow, Scikit-learn, Pandas, NumPy, and Matplotlib.
+
+**Note** This notebook was generated in a Windows 10 WSL2 (Unbuntu) VM PowerShell terminal using miniconda, and it was optimized to use a GPU with a max memory usage of 6 GB. You can adjust the max GPU usage if you have more available GPU memory.
 
 # 🐕 End-to-end Multi-class Dog Breed Classification
 
@@ -29,3 +31,10 @@ Some information about the data:
 * There are 120 breeds of dogs (this means there are 120 different classes).
 * There are around 10,000+ images in the training set. (These images have labels)
 * There are around 10,000+ images in the test set. (These images have no labels, because we will want to predict them).
+
+# How to set up environment:
+
+1. create the ./env from the `environment.yml` file
+2. create a `data` folder and save the data files from Kaggle to this folder
+3. create `logs`, `models`, and a `original_images` folders to avoid file path errors
+**Note:** Setup may be different depending on your IDE and/or OS.
