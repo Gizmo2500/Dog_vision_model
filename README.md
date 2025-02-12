@@ -16,7 +16,7 @@ Example scenario... When I'm sitting at a cafe and I take a photo of a dog, I wa
 ## 2. Data
 
 The data this notebook uses is from Kaggle's dog breed identification competition:
-https://www.kaggle.com/c/dog-breed-identification/overview
+https://www.kaggle.com/c/dog-breed-identification/data
 
 ## 3. Evaluation
 
