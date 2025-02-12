@@ -37,4 +37,5 @@ Some information about the data:
 1. create the ./env from the `environment.yml` file
 2. create a `data` folder and save the data files from Kaggle to this folder
 3. create `logs`, `models`, and a `original_images` folders to avoid file path errors
-**Note:** Setup may be different depending on your IDE and/or OS.
+
+**Note:** Setup may be different depending on your terminal, IDE and/or OS.
