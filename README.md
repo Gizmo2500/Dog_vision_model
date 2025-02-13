@@ -28,15 +28,28 @@ https://www.kaggle.com/competitions/dog-breed-identification/overview/evaluation
 ## 4. Features
 
 Some information about the data:
-* This notebook deals with images (unstructured data) so it's probably best we use deep learning/transfer learning.
+* This notebook deals with images (unstructured data) so it's probably best to use deep learning/transfer learning.
 * There are 120 breeds of dogs (this means there are 120 different classes).
 * There are around 10,000+ images in the training set. (These images have labels)
 * There are around 10,000+ images in the test set. (These images have no labels, because we will want to predict them).
 
 # How to set up environment:
 
-1. create the ./env from the `environment.yml` file
-2. create a `data` folder and save the data files from Kaggle to this folder
-3. create `logs`, `models`, and a `original_images` folders to avoid file path errors
+1. create a conda environment using the `environment.yml` and/ or `requirments.txt` file. *(list of installed packages will be added below)*
+2. create a `data` folder and download the data files from Kaggle to this folder
+3. use `conda activate ./env` in the directory location.
+4. start a `jupyter notebook` and open the dog vision notebook. 
 
 **Note:** Setup may be different depending on your terminal, IDE and/or OS.
+
+### If you have issues using either the `environment.yml` or the `requirements.txt`, here is how I installed the packages when I created the environment:
+  
+  First:
+  
+  `conda create --prefix ./env jupyter pandas numpy scikit-learn matplotlib pip`
+
+  Then:
+
+  `pip install tensorflow[and-cuda]` (GPU) or `pip install tensorflow` (CPU) 
+  
+  `pip install tensorflow-hub`
