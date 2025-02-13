@@ -50,6 +50,8 @@ Some information about the data:
 
   Then:
 
+  `conda activate ./env`
+  
   `pip install tensorflow[and-cuda]` (GPU) or `pip install tensorflow` (CPU) 
   
   `pip install tensorflow-hub`
